@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome()
-driver.get("https://demo.opencart.com"
+driver = webdriver.Chrome;
+driver.get("https://demo.opencart.com")
 
 print(driver.title)
 //print("url open successfully")
