@@ -5,5 +5,5 @@ driver = webdriver.Chrome()
 driver.get("https://demo.opencart.com")
 
 print(driver.title)
-
+print("url open successfully")
 driver.quit()
